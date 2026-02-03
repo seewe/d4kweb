@@ -1,0 +1,13 @@
+@keyframes arrowBounce {
+  0%,
+  100% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.hoverable-card:hover .arrow-bounce {
+  animation: arrowBounce 1.5s ease-in-out infinite;
+}
